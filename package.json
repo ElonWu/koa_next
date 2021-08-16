@@ -1,0 +1,36 @@
+{
+  "name": "koa_next",
+  "version": "0.0.1",
+  "description": "koa + next.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElonWu/koa_next"
+  },
+  "author": "ElonWu",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^10.1.0",
+    "koa": "^2.13.1",
+    "next": "^11.1.0",
+    "nodemon": "^2.0.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "swr": "^0.5.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "next statr",
+    "build": "next build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^6.7.0"
+  }
+}
